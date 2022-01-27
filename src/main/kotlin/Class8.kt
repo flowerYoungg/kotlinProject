@@ -21,6 +21,9 @@ fun main() {
     testMap1.put(20,"훈이")
     println(testMap1[15])
 
+    testMap1[100] = "하용"
+    println(testMap1)
+
     //Set : 중복이 허용되지 않음 mutableSetOf
     val testSet1 = mutableSetOf<String>("a", "b","c")
     println(testSet1)
